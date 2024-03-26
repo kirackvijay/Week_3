@@ -1,0 +1,127 @@
+body {
+  font-family: Roboto;
+}
+.instaGallery {
+  width: 1050px;
+  height: 1500px;
+  margin-left: 190px;
+  box-shadow: 0px 0px 10px;
+}
+.div1 {
+  margin-bottom: 30px;
+}
+.gallery {
+  display: flex;
+  justify-content: space around;
+  flex-wrap: wrap;
+  gap: 25px;
+  transition: box-shadow 0.15s box-shadow 2s;
+}
+.gallery img {
+  flex-wrap: wrap;
+  width: 300px;
+  height: 300px;
+  margin-left: 25px;
+  cursor: pointer;
+  margin-right: 0px;
+}
+.gallery img:hover {
+  box-shadow: 0px 0px 20px;
+  filter: saturate(150%);
+}
+.gallery img:active {
+  opacity: 0.7;
+}
+.profile-picture {
+  border: 5px solid grey;
+  display: flex;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+span {
+  font-weight: bold;
+}
+p {
+  margin: 0;
+}
+.h1 {
+  display: inline-block;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+.h2 {
+  display: inline-block;
+  margin-top: 40px;
+  margin-left: 70px;
+  vertical-align: top;
+  margin-bottom: 10px;
+}
+.h2-info {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.profile-name {
+  font-size: 30px;
+  display: inline-block;
+  vertical-align: top;
+  cursor: pointer;
+}
+button {
+  background-color: rgb(20, 90, 187);
+  color: white;
+  box-shadow: 0px 0px 1px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background-color 0.15s color 0.15s opacity 0.15s;
+}
+button:hover {
+  background-color: rgb(15, 57, 116);
+  color: white;
+}
+button:active {
+  opacity: 0.5;
+}
+.follow-button {
+  font-weight: bold;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-left: 50px;
+  margin-right: 5px;
+}
+.down-button {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  padding-bottom: 7px;
+  padding-top: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.dots {
+  display: inline-block;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: border 0.15s, border-radius 0.15s, color 0.15s;
+}
+
+.dots:hover {
+  border: 1px solid black;
+  border-radius: 2px;
+}
+.dots:active {
+  color: rgb(20, 90, 187);
+}
+.p1,
+.p2,
+.p3 {
+  margin-top: 8px;
+  display: inline-block;
+  margin-right: 35px;
+}
+.bio-line1,
+.bio-line2 {
+  line-height: 20px;
+  font-size: 18px;
+}
